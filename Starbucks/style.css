@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+#nav-bar-logo {
+    height: 40px;
+    width: 40px;
+}
+
+#nav-bar-item-1 {
+    font-family: "Roboto";
+    color: black;
+}
+
+#nav-bar-item-2 {
+    font-family: "Roboto";
+    color: black;
+}
+
+#nav-bar-item-3 {
+    font-family: "Roboto";
+    color: black;
+}
+
+#nav-bar-item-4 {
+    font-family: "Roboto";
+    color: black;
+}
+
+#nav-bar-item-5 {
+    font-family: "Roboto";
+    color: black;
+}
+
+.home-page-recomands-card-container {
+    background-color: #EDEBE9;
+    height: 300px;
+}
+
+.home-page-recomands-card-heading {
+    color: #4A5F59;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.home-page-recomands-each-card-container {
+    background-color: white;
+    height: 150px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.home-page-recomands-each-item-img {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.home-page-recomands-each-item-price {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.home-page-recomands-each-item-name {
+    font-size: 15px;
+    margin: 10px;
+}
+
+.home-page-recomands-each-item-desc {
+    font-size: 8px;
+    margin: 10px;
+}
+
+.home-page-recomands-each-item-btn {
+    background-color: #00754A;
+    border: 0px;
+    color: white;
+    border-radius: 20px;
+    height: 25px;
+    width: 95px;
+    font-size: 10px;
+}
+
+.home-page-card-bg-1 {
+    background-color: #09907F;
+
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.home-page-card-img-1 {
+    height: 150px;
+    width: 105px;
+}
+
+.home-page-card-bg-2 {
+    background-color: #EC9718;
+
+    color: black;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.home-page-card-img-2 {
+    height: 150px;
+    width: 105px;
+}
+
+.home-page-card-bg-3 {
+    background-color: #DFC49D;
+    color: black;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.home-page-card-img-3 {
+    height: 150px;
+    width: 105px;
+}
+
+.Handcrafted-Curations-img {
+    border-radius: 100%;
+    height: 150px;
+    width: 100px;
+    border-color: #00754A;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.Handcrafted-Curations-title {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.Latest-Offerings-card {
+    background-color: white;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.Latest-Offerings-img {
+    height: 200px;
+    width: 300px;
+
+}
+
+.Latest-Offerings-title {
+    font-size: 15px;
+}
+
+.Latest-Offerings-desc {
+    font-size: 9px;
+}
+
+.Latest-Offerings-each-item-price {
+    font-size: 15px;
+}
+
+
+.Latest-Offerings-each-item-btn {
+    background-color: #00754A;
+    border: 0px;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    font-size: 10px;
+    margin-left: 113px;
+}
+
+.Learn-more-card-container {
+    background-color: #EDEBE9;
+
+}
+
+.Learn-more-img-bg-container {
+    background-image: url("https://preprodtsbstorage.blob.core.windows.net/cms/uploads/ICW_Live_Event_Day5_1_decd6c1b6f.jpg");
+    height: 400px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.Learn-more-title {
+    color: white;
+    font-size: 25px;
+}
+
+.Learn-more-paragraph {
+    color: white;
+    font-size: 15px;
+}
+
+.Learn-more-btn {
+    background-color: white;
+    height: 35px;
+    width: 175px;
+    border: 0px;
+    border-radius: 50px;
+}
+
+.homepage-footer-section-bg {
+    background-color: #0E382C;
+    background-size: cover;
+    padding: 20px;
+}
+
+.homepage-footer-section-img {
+    height: 75px;
+    width: 75px;
+}
+
+.healthy-food-section-tittle {
+    color: white;
+    font-size: 20px;
+}
+
+.healthy-food-section-paragraph {
+    color: white;
+    font-size: 13px;
+}
+
+.healthy-food-section-icon {
+    height: 30px;
+    width: 30px;
+}
+
+.healthy-food-section-store {
+    height: 50px;
+    width: 100px;
+}

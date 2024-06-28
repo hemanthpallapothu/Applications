@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.homepage {
+    padding: 70px;
+    background-image: url('https://img.freepik.com/free-photo/young-fitness-man-studio_7502-5008.jpg?w=740&t=st=1684471804~exp=1684472404~hmac=e581481dcf5d46c6434d45e9778922298029ea674a7cd3cd7bfc8de96805f795');
+    height: 100vh;
+    background-size: cover;
+    width: 100vw;
+    color: white;
+}
+
+.homepage-heading-1 {
+    font-family: Times New Roman;
+    font-size: 50px;
+}
+
+.homepage-heading-2 {
+    font-family: Times New Roman;
+    font-size: 80px;
+}
+
+.homepage-paragraph {
+    font-size: 20px;
+    font-family: Roboto;
+    text-align: center;
+}
+
+.homepage-img {
+    height: 70vh;
+    width: 35vw;
+    margin: 50px;
+}
+
+.gym-background {
+    background-image: url('https://img.freepik.com/free-photo/silhouette-woman-gym_23-2148024301.jpg?w=740&t=st=1684472355~exp=1684472955~hmac=c94c7020b42699aaba39c31641be1ac264ab5ddbcf4a0b736dc489576f5abc26');
+    height: 100vh;
+    background-size: cover;
+    width: 100vw;
+    padding: 5px;
+}
+
+.gym-heading {
+    color: white;
+    text-align: center;
+    font-family: Times New Roman;
+
+}
+
+.gym-card-heading {
+    text-align: center;
+    font-family: Times New Roman;
+    font-size: 30px;
+    color: white;
+}
+
+.gym-card-para {
+    color: white;
+    padding: 5px;
+}
+
+.gym-card-symbol {
+    height: 75px;
+    width: 75px;
+}
+
+.gym-card {
+    margin: 35px;
+    width: 250px;
+    font-family: Roboto;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #000000e6;
+    padding: 5px;
+}
+
+.gym-plan-bg {
+    background-image: url('https://img.freepik.com/premium-photo/kickboxer-victoriously-raises-belt-won-tournament-aga_392761-4692.jpg?w=740');
+    background-size: cover;
+    width: 100vw;
+}
+
+.gym-plan-heading {
+    color: white;
+    padding: 15px;
+    font-family: Times New Roman;
+    text-align: center;
+    font-size: 50px;
+}
+
+.gym-plan-paragraph {
+    color: white;
+    padding: 15px;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 25px;
+}
+
+.gym-plan-card {
+    background-color: #000000e6;
+    width: 450px;
+    margin: 25px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.gym-plan-card-heading {
+    font-size: 28px;
+    font-family: Times New Roman;
+    color: white;
+}
+
+.gym-plan-card-paragaraph {
+    font-family: Roboto;
+    color: white;
+}
+
+.gympass-bg {
+    background-color: black;
+    background-size: cover;
+    width: 100vw;
+    padding: 5px;
+}
+
+.gympass-heading {
+    color: white;
+    font-family: Times New Roman;
+    font-weight: bold;
+    font-size: 75px;
+    text-align: center;
+}
+
+.gympass-img {
+    height: 175px;
+    width: 300px;
+    border-radius: 8px;
+    margin: 25px;
+
+}
+
+.gympass-img-2 {
+    height: 300px;
+    width: 220px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.gymcoach-heading {
+    color: white;
+    font-family: Times New Roman;
+    padding: 5px;
+    text-align: center;
+}
+
+.gymcoach-img {
+    height: 175px;
+    width: 300px;
+    border-radius: 8px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.gymcoach-paragrapgh {
+    color: white;
+    font-family: Roboto;
+    font-size: 25px;
+}
+
+.gymcoach1111 {
+    margin: 10px;
+    padding: 10px;
+}
+
+.elitepass-bg {
+    background-color: black;
+    background-size: cover;
+    padding: 5px;
+}
+
+.elitepass-heading {
+    color: #E0AA3E;
+    font-family: Times New Roman;
+    padding: 20px;
+}
+
+.elitepass-paragraph {
+    color: white;
+    font-family: Roboto;
+    font-size: 25px;
+}
+
+.elitepass-button-1 {
+    font-family: Roboto;
+    font-size: 15px;
+    border: 0px;
+    height: 38px;
+    width: 136px;
+    border-radius: 16px;
+    padding: 5px;
+}
+
+.elitepass-button-2 {
+    font-family: Roboto;
+    font-size: 15px;
+    border: 0px;
+    background-color: #E0AA3E;
+    height: 38px;
+    width: 136px;
+    border-radius: 16px;
+    padding: 5px;
+}
+
+.elitepass-img {
+    height: 175px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.elitepass-card {
+    margin: 35px;
+    border-radius: 10px;
+    background-color: #E0AA3E;
+    padding: 15px;
+}
+
+.elitepass-card-heading {
+    font-family: Times New Roman;
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.elitepass-card-paragraph {
+    color: black;
+    font-family: Arial;
+    font-size: 25px;
+}
+
+.elitepass-paragraph-2 {
+    color: white;
+    text-align: center;
+    font-family: Times New Roman;
+    font-family: 50px;
+}
+
+.elitepass-heading-2 {
+    color: white;
+    font-family: Times New Roman;
+    text-align: center;
+    font-size: 50px;
+}
+
+.elitepass-card-2 {
+    height: 300px;
+    width: 300px;
+    background-color: #383838;
+    margin: 35px;
+    padding: 25px;
+    border-color: #E0AA3E;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+}
+
+.elitepass-card-heading-1 {
+    color: #E0AA3E;
+    padding: 25px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Times New Roman;
+}
+
+.elitepass-card-heading-2 {
+    color: #E0AA3E;
+    padding: 25px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.elitepass-card-paragraph-1 {
+    color: white;
+    font-family: Times New Roman;
+    font-size: 25px;
+    text-align: center;
+}
+
+.elitepass-img {
+    height: 300px;
+    width: 300px;
+    border-color: #E0AA3E;
+    border-style: solid;
+    border-width: 1px;
+    margin: 35px;
+}
+
+.propass-bg {
+    background-color: black;
+    background-size: cover;
+    padding: 5px;
+}
+
+.propass-heading {
+    color: #d5d5d7;
+    font-family: Times New Roman;
+    padding: 20px;
+}
+
+.propass-paragraph {
+    color: white;
+    font-family: Roboto;
+    font-size: 25px;
+}
+
+.propass-button-1 {
+    font-family: Roboto;
+    font-size: 15px;
+    border: 0px;
+    height: 38px;
+    width: 136px;
+    border-radius: 16px;
+    padding: 5px;
+}
+
+.propass-button-2 {
+    font-family: Roboto;
+    font-size: 15px;
+    border: 0px;
+    background-color: #d5d5d7;
+    height: 38px;
+    width: 136px;
+    border-radius: 16px;
+    padding: 5px;
+}
+
+.propass-img {
+    height: 175px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.propass-card {
+    margin: 35px;
+    border-radius: 10px;
+    background-color: #d5d5d7;
+    padding: 15px;
+}
+
+.propass-card-heading {
+    font-family: Times New Roman;
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.propass-card-paragraph {
+    color: black;
+    font-family: Arial;
+    font-size: 25px;
+}
+
+.propass-paragraph-2 {
+    color: white;
+    text-align: center;
+    font-family: Times New Roman;
+    font-family: 50px;
+}
+
+.propass-heading-2 {
+    color: white;
+    font-family: Times New Roman;
+    text-align: center;
+    font-size: 50px;
+}
+
+.propass-card-2 {
+    height: 300px;
+    width: 300px;
+    background-color: #383838;
+    margin: 35px;
+    padding: 25px;
+    border-color: #d5d5d7;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+}
+
+.propass-card-heading-1 {
+    color: #d5d5d7;
+    padding: 25px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Times New Roman;
+}
+
+.propass-card-heading-2 {
+    color: #d5d5d7;
+    padding: 25px;
+    font-size: 50px;
+    text-align: center;
+    font-family: Times New Roman;
+}
+
+.propass-card-paragraph-1 {
+    color: white;
+    font-family: Times New Roman;
+    font-size: 25px;
+    text-align: center;
+}
+
+.propass-img {
+    height: 300px;
+    width: 300px;
+    border-color: #d5d5d7;
+    border-style: solid;
+    border-width: 1px;
+    margin: 35px;
+}
+
+.buttton-gold {
+    color: black;
+    background-color: #E0AA3E;
+    border: 0px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.buttton-silver {
+    color: black;
+    background-color: #d5d5d7;
+    border: 0px;
+    border-radius: 8px;
+    margin: 10px;
+}

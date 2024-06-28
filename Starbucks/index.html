@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Starbucks Coffee Company</title>
+    <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png" id="nav-bar-logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active ml-4" href="#" id="nav-bar-item-1">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link ml-4" href="#" id="nav-bar-item-2">Gift</a>
+                    <a class="nav-link ml-4" href="#" id="nav-bar-item-3">Order</a>
+                    <a class="nav-link ml-4" href="#" id="nav-bar-item-4">Pay</a>
+                    <a class="nav-link ml-4" href="#" id="nav-bar-item-5">Store</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <hr>
+    <div class="home-page-recomands-card-container p-4">
+        <h1 class="home-page-recomands-card-heading">Barista Recommends</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="d-flex flex-row">
+                                    <div>
+                                        <div class="home-page-recomands-each-card-container d-flex flex-row ml-3">
+                                            <div>
+                                                <img src="https://res.cloudinary.com/duafmawoq/image/upload/v1716351544/bene7nrwfj8s9vhiktxl.jpg" class="home-page-recomands-each-item-img">
+                                                <h1 class="home-page-recomands-each-item-price">Rs : 199.50</h1>
+                                            </div>
+                                            <div>
+                                                <h1 class="home-page-recomands-each-item-name">Bhuna Chicken Puff</h1>
+                                                <h6 class="home-page-recomands-each-item-desc">PER SERVE (85 g)-390Kcal</h6>
+                                                <button class="home-page-recomands-each-item-btn">Add Item</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="home-page-recomands-each-card-container d-flex flex-row ml-3">
+                                            <div>
+                                                <img src="https://res.cloudinary.com/duafmawoq/image/upload/v1716354642/114800_1_ybo1lw.jpg" class="home-page-recomands-each-item-img">
+                                                <h1 class="home-page-recomands-each-item-price">Rs : 430.50</h1>
+                                            </div>
+                                            <div>
+                                                <h1 class="home-page-recomands-each-item-name">Tandoori Chicken Panini Sandwich</h1>
+                                                <h6 class="home-page-recomands-each-item-desc">290g/901kcal.</h6>
+                                                <button class="home-page-recomands-each-item-btn">Add Item</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="home-page-recomands-each-card-container d-flex flex-row ml-3">
+                                            <div>
+                                                <img src="https://res.cloudinary.com/duafmawoq/image/upload/v1716354790/113008_xq98aa.jpg" class="home-page-recomands-each-item-img">
+                                                <h1 class="home-page-recomands-each-item-price">Rs : 299.25</h1>
+                                            </div>
+                                            <div>
+                                                <h1 class="home-page-recomands-each-item-name">Chocolate Brownie Cupcake</h1>
+                                                <h6 class="home-page-recomands-each-item-desc">PER SERVE (80 g) - 416kcal</h6>
+                                                <button class="home-page-recomands-each-item-btn">Add Item</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-flex flex-row">
+                                    <div>
+                                        <div class="home-page-recomands-each-card-container d-flex flex-row ml-3">
+                                            <div>
+                                                <img src="https://res.cloudinary.com/duafmawoq/image/upload/v1716355001/112737_azsie2.jpg" class="home-page-recomands-each-item-img">
+                                                <h1 class="home-page-recomands-each-item-price">Rs : 273.00</h1>
+                                            </div>
+                                            <div>
+                                                <h1 class="home-page-recomands-each-item-name">Three Dip Chips</h1>
+                                                <h6 class="home-page-recomands-each-item-desc">PER SERVE (180 g) - 513 Kcal</h6>
+                                                <button class="home-page-recomands-each-item-btn">Add Item</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="home-page-recomands-each-card-container d-flex flex-row ml-3">
+                                            <div>
+                                                <img src="https://res.cloudinary.com/duafmawoq/image/upload/v1716355128/112737_gkizvm.jpg" class="home-page-recomands-each-item-img">
+                                                <h1 class="home-page-recomands-each-item-price">Rs : 294.00</h1>
+                                            </div>
+                                            <div>
+                                                <h1 class="home-page-recomands-each-item-name">Chilli Paneer In Herbed Bun</h1>
+                                                <h6 class="home-page-recomands-each-item-desc">PER SERVE (160 g) - 598 kcal</h6>
+                                                <button class="home-page-recomands-each-item-btn">Add Item</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="home-page-recomands-each-card-container d-flex flex-row ml-3">
+                                            <div>
+                                                <img src="https://res.cloudinary.com/duafmawoq/image/upload/v1716355226/112570_abyd8l.jpg" class="home-page-recomands-each-item-img">
+                                                <h1 class="home-page-recomands-each-item-price">Rs : 1367.50</h1>
+                                            </div>
+                                            <div>
+                                                <h1 class="home-page-recomands-each-item-name">Strawberry Milkshake</h1>
+                                                <h6 class="home-page-recomands-each-item-desc">TALL(Tall Strawberry Milkshake) .PER SERVE (354ml) - 569 Kcal</h6>
+                                                <button class="home-page-recomands-each-item-btn">Add Item</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-flex flex-row">
+                                    <div>
+                                        <div class="home-page-recomands-each-card-container d-flex flex-row ml-3">
+                                            <div>
+                                                <img src="https://res.cloudinary.com/duafmawoq/image/upload/v1716355334/112570_lxnlkk.jpg" class="home-page-recomands-each-item-img">
+                                                <h1 class="home-page-recomands-each-item-price">Rs : 367.50</h1>
+                                            </div>
+                                            <div>
+                                                <h1 class="home-page-recomands-each-item-name">Vanilla Milkshake</h1>
+                                                <h6 class="home-page-recomands-each-item-desc">TALL(354 ML) .PER SERVE (354ml) - 531 Kcal</h6>
+                                                <button class="home-page-recomands-each-item-btn">Add Item</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="home-page-recomands-each-card-container d-flex flex-row ml-3">
+                                            <div>
+                                                <img src="https://res.cloudinary.com/duafmawoq/image/upload/v1716355435/112567_pgree9.jpg" class="home-page-recomands-each-item-img">
+                                                <h1 class="home-page-recomands-each-item-price">Rs : 367.50</h1>
+                                            </div>
+                                            <div>
+                                                <h1 class="home-page-recomands-each-item-name">Chocolate Milkshake</h1>
+                                                <h6 class="home-page-recomands-each-item-desc">TALL(354 ML) .PER SERVE (354 ml) - 632 Kcal</h6>
+                                                <button class="home-page-recomands-each-item-btn">Add Item</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="home-page-recomands-each-card-container d-flex flex-row ml-3">
+                                            <div>
+                                                <img src="https://res.cloudinary.com/duafmawoq/image/upload/v1716351544/bene7nrwfj8s9vhiktxl.jpg" class="home-page-recomands-each-item-img">
+                                                <h1 class="home-page-recomands-each-item-price">Rs : 199.50</h1>
+                                            </div>
+                                            <div>
+                                                <h1 class="home-page-recomands-each-item-name">Bhuna Chicken Puff</h1>
+                                                <h6 class="home-page-recomands-each-item-desc">PER SERVE (85 g)-390Kcal</h6>
+                                                <button class="home-page-recomands-each-item-btn">Add Item</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="col-12 home-page-card-bg-1 d-flex flex-row mt-5">
+                                <img src="https://preprodtsbstorage.blob.core.windows.net/cms/uploads/285_x_595_App_removebg_preview_2_c4bc942184.png" class="home-page-card-img-1" />
+                                <div>
+                                    <h6>Starbucks</h6>
+                                    <h5>Beverage Subscription</h5>
+                                    <p>Starbucks Beverage Subscriptions are Back! Enjoy Your Favourite Core Beverages at a Special Price.</p>
+                                    <p>Starting From</p>
+                                    <p>Rs:789</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+
+                            <div class="col-12 home-page-card-bg-2 d-flex flex-row mt-5">
+                                <img src="https://preprodtsbstorage.blob.core.windows.net/cms/uploads/Ginger_Ale_Cold_Brew_Banner_Icon_2_b2d08b7f30.png" class="home-page-card-img-2" />
+                                <div>
+                                    <h6>Don't miss</h6>
+                                    <h5>Cold Brews</h5>
+                                    <p>Stay cool this summer with Starbucks'cold Brew - Coffee, but cooler.with options to match every mood</p>
+                                    <p>Starting From</p>
+                                    <p>Rs:350</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-12 home-page-card-bg-3 d-flex flex-row mt-5">
+                                <img src="https://preprodtsbstorage.blob.core.windows.net/cms/uploads/TIRAMISU_Banner_Icon_3_fd8c61df76.png" class="home-page-card-img-3" />
+                                <div>
+                                    <h6>Coffee Meets Dessert</h6>
+                                    <h5>Cold Brew Tiramisu</h5>
+                                    <p>Experience the harmonious blend of smooth coffee, nutty almond, and creamy mascarpone</p>
+                                    <p>For</p>
+                                    <p>Rs:345</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-5">
+            <h1 class="home-page-recomands-card-heading">Handcrafted Curations</h1>
+            <div class="row d-flex flex-row">
+                <div class="col-4 col-lg-2">
+                    <div class="Handcrafted-Curations-title">
+                        <img src="https://starbucksstatic.cognizantorderserv.com/Category/Small/webP/Bestseller.webp" class="Handcrafted-Curations-img" />
+                        <h6 class="Handcrafted-Curations-title">Bestseller</h6>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-2">
+                    <div class="Handcrafted-Curations-title">
+                        <img src="https://starbucksstatic.cognizantorderserv.com/Category/Small/webP/Drinks.webp" class="Handcrafted-Curations-img" />
+                        <h6 class="Handcrafted-Curations-title">Drinks</h6>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-2">
+                    <div class="Handcrafted-Curations-title">
+                        <img src="https://starbucksstatic.cognizantorderserv.com/Category/Small/webP/Food.webp" class="Handcrafted-Curations-img" />
+                        <h6 class="Handcrafted-Curations-title">Food</h6>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-2">
+                    <div class="Handcrafted-Curations-title">
+                        <img src="https://starbucksstatic.cognizantorderserv.com/Category/Small/webP/Merchandise.webp" class="Handcrafted-Curations-img" />
+                        <h6 class="Handcrafted-Curations-title">Merchandise</h6>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-2">
+                    <div class="Handcrafted-Curations-title">
+                        <img src="https://starbucksstatic.cognizantorderserv.com/Category/Small/webP/CoffeeAtHome.webp" class="Handcrafted-Curations-img" />
+                        <h6 class="Handcrafted-Curations-title">Coffee At Home</h6>
+                    </div>
+                </div>
+                <div class="col-4 col-lg-2">
+                    <div class="Handcrafted-Curations-title">
+                        <img src="https://starbucksstatic.cognizantorderserv.com/Category/Small/webP/ReadyToEat.webp" class="Handcrafted-Curations-img" />
+                        <h6 class="Handcrafted-Curations-title">Ready To Eat</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 class="home-page-recomands-card-heading">Latest Offerings</h1>
+        <div class="row">
+            <div class="col-12">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div>
+                                <div class="d-flex flex-row">
+                                    <div class="Latest-Offerings-card ml-3">
+                                        <img src="https://res.cloudinary.com/duafmawoq/image/upload/v1716437524/113849_xtnd2s.jpg" class="Latest-Offerings-img" />
+                                        <div class="p-1">
+                                            <h1 class="Latest-Offerings-title">Belgium Chocolate Frappuccino</h1>
+                                            <p class="Latest-Offerings-desc">TALL(354 ML) .470 Kcal</p>
+                                            <p class="Latest-Offerings-desc">Blend of decadent Belgian chocolate sauce and coffee with a whipped chocolate topping. The beverage is finished off with dark chocolate chips swirled to make a smooth blend.</p>
+                                            <div class="d-flex flex-row">
+                                                <h1 class="Latest-Offerings-each-item-price">Rs:509.25</h1>
+                                                <button class="Latest-Offerings-each-item-btn">Add Item</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="Latest-Offerings-card ml-3">
+                                        <img src="https://res.cloudinary.com/duafmawoq/image/upload/v1716438197/113842_ptc6tl.jpg" class="Latest-Offerings-img" />
+                                        <div class="p-1">
+                                            <h1 class="Latest-Offerings-title">Belgium Chocolate Latte</h1>
+                                            <p class="Latest-Offerings-desc">SHORT(237 ML) .235 Kcal</p>
+                                            <p class="Latest-Offerings-desc">Espresso with decadent Belgian chocolate sauce, mocha sauce and steamed milk. Topped with whipped chocolate topping and dark chocolate chips.</p>
+                                            <div class="d-flex flex-row">
+                                                <h1 class="Latest-Offerings-each-item-price">Rs:430.50</h1>
+                                                <button class="Latest-Offerings-each-item-btn">Add Item</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="Latest-Offerings-card ml-3">
+                                        <img src="https://res.cloudinary.com/duafmawoq/image/upload/v1716438814/113846_k2ziln.jpg" class="Latest-Offerings-img" />
+                                        <div class="p-1">
+                                            <h1 class="Latest-Offerings-title">Iced Belgium Chocolate Latte</h1>
+                                            <p class="Latest-Offerings-desc">TALL(354 ML) .340 Kcal</p>
+                                            <p class="Latest-Offerings-desc">Espresso with decadent Belgian chocolate sauce, mocha sauce and steamed milk served over ice. Topped with whipped chocolate topping and dark chocolate chips.</p>
+                                            <div class="d-flex flex-row">
+                                                <h1 class="Latest-Offerings-each-item-price">Rs:472.50</h1>
+                                                <button class="Latest-Offerings-each-item-btn">Add Item</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div>
+                                <div class="d-flex flex-row">
+                                    <div class="Latest-Offerings-card ml-3">
+                                        <img src="https://res.cloudinary.com/duafmawoq/image/upload/v1716439142/104905_xqxxxy.jpg" class="Latest-Offerings-img" />
+                                        <div class="p-1">
+                                            <h1 class="Latest-Offerings-title">Alphonso Mango Java Chip Frappuccino</h1>
+                                            <p class="Latest-Offerings-desc">TALL(Tall Alphonso Mango Java chip Frappuccin) .512Kcal</p>
+                                            <p class="Latest-Offerings-desc">Alphonso mango and milk are blended with ice and Java Chips to a fruity, chocolaty perfection. Topped with a swirl of whipped topping to give you summer in a cup. A coffee free delight.</p>
+                                            <div class="d-flex flex-row">
+                                                <h1 class="Latest-Offerings-each-item-price">Rs:509.25</h1>
+                                                <button class="Latest-Offerings-each-item-btn">Add Item</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="Latest-Offerings-card ml-3">
+                                        <img src="https://res.cloudinary.com/duafmawoq/image/upload/v1716439236/104905_vxafoi.jpg" class="Latest-Offerings-img" />
+                                        <div class="p-1">
+                                            <h1 class="Latest-Offerings-title">Cold Brew with Ginger Ale</h1>
+                                            <p class="Latest-Offerings-desc">SHORT(Iced Short Cold brew with Ginger Ale) .130Kcal</p>
+                                            <p class="Latest-Offerings-desc">A delicious double layered cold brew beverage with ginger ale. A pure delight for a warm sunny day.</p>
+                                            <div class="d-flex flex-row">
+                                                <h1 class="Latest-Offerings-each-item-price">Rs:372.75</h1>
+                                                <button class="Latest-Offerings-each-item-btn">Add Item</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="Latest-Offerings-card ml-3">
+                                        <img src="https://starbucksstatic.cognizantorderserv.com/Items/Large/webP/100501.webp" class="Latest-Offerings-img" />
+                                        <div class="p-1">
+                                            <h1 class="Latest-Offerings-title">Java Chip Frappuccino</h1>
+                                            <p class="Latest-Offerings-desc">TALL(354 ML) .392 kcal</p>
+                                            <p class="Latest-Offerings-desc">Mocha sauce and Frappuccino® chips blended with with Frappuccino® roast coffee and milk and ice, then topped with whipped vanilla topping and mocha drizzle to bring you endless java joy.</p>
+                                            <div class="d-flex flex-row">
+                                                <h1 class="Latest-Offerings-each-item-price">Rs:383.25</h1>
+                                                <button class="Latest-Offerings-each-item-btn">Add Item</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 Learn-more-card-container mt-5 p-5">
+            <h1 class="home-page-recomands-card-heading">Learn more about the world of coffee!</h1>
+            <div class="container">
+                <div class="d-flex flex-column justify-content-end Learn-more-img-bg-container m-4">
+                    <div>
+                        <h1 class="Learn-more-title pl-5">Art & Science of Coffee Brewing</h1>
+                        <p class="Learn-more-paragraph pl-5">Master the perfect brew with Starbucks! Learn the art and science of coffee brewing</p>
+                        <button class="Learn-more-btn ml-5 mb-5">Learn more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="homepage-footer-section-bg pt-5">
+            <div class="row d-flex flex-row">
+                <div class="col-6 col-md-4 col-lg-2">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png" class="homepage-footer-section-img" />
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div>
+                        <h5 class="healthy-food-section-tittle">About Us</h5>
+                        <p class="healthy-food-section-paragraph">Our Heritage</p>
+                        <p class="healthy-food-section-paragraph">Coffeehouse</p>
+                        <p class="healthy-food-section-paragraph">Our Company</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div>
+                        <h5 class="healthy-food-section-tittle">Responsibility</h5>
+                        <p class="healthy-food-section-paragraph">Diversity</p>
+                        <p class="healthy-food-section-paragraph">Community</p>
+                        <p class="healthy-food-section-paragraph">Ethical Sourcing</p>
+                        <p class="healthy-food-section-paragraph">Environmental<br>Stewardship</p>
+                        <p class="healthy-food-section-paragraph">Learn More</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div>
+                        <h5 class="healthy-food-section-tittle">Quick Links</h5>
+                        <p class="healthy-food-section-paragraph">Privacy Policy</p>
+                        <p class="healthy-food-section-paragraph">FAQs</p>
+                        <p class="healthy-food-section-paragraph">Terms and<br>Conditions</p>
+                        <p class="healthy-food-section-paragraph">Starbucks India<br>Mobile App Terms of<br>Use</p>
+                        <p class="healthy-food-section-paragraph">Customer Service</p>
+                        <p class="healthy-food-section-paragraph">Starbucks Rewards<br>Day Offer</p>
+                        <p class="healthy-food-section-paragraph">Delivery</p>
+                        <p class="healthy-food-section-paragraph">Season's Gifting</p>
+                        <p class="healthy-food-section-paragraph">Offer for Beverage<br>Subscription at<br>Starbucks.</p>
+                        <p class="healthy-food-section-paragraph">Beverage<br>Subscription</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div>
+                        <h5 class="healthy-food-section-tittle">SOCIAL MEDIA</h5>
+                        <div>
+                            <a href="https://www.instagram.com/starbucksindia/" target="_blank">
+                                <i class="fab fa-instagram healthy-food-section-icon" style="color: #ffffff;"></i>
+                            </a>
+                            <a href="https://www.facebook.com/starbucksindia" target="_blank">
+                                <i class="fab fa-facebook healthy-food-section-icon" style="color: #ffffff;"></i>
+                            </a>
+                            <a href="https://x.com/starbucksindia" target="_blank">
+                                <i class="fab fa-twitter healthy-food-section-icon" style="color: #ffffff;"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div>
+                        <a href="https://apps.apple.com/in/app/starbucks-india/id1210203958" target="_blank">
+                            <img src="https://www.starbucks.in/assets/images/appstoreiOS.png" class="healthy-food-section-store" />
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.starbucks.in" target="_blank">
+                            <img src="https://www.starbucks.in/assets/images/appstoreAndroid.png" class="healthy-food-section-store" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

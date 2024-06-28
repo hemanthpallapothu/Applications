@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+}
+
+.bg-container{
+    background-color: black;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+    padding: 15px;
+}
+
+.clear-btn{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.input-ele{
+    width: 300px !important;
+    height: 100px !important;
+    font-size: 25px;
+    font-family: roboto;
+    font-weight: bold;
+}
+
+.btn-size{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
