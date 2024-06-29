@@ -1,1 +1,1 @@
-"MERN Stack Projects" 
+"This repository showcases my projects developed using skills acquired from NxtWave, including building static and responsive websites with HTML, CSS, and Bootstrap, dynamic websites with JavaScript, advanced Flexbox concepts, modern JavaScript, Node.js, React.js. Each project demonstrates practical applications of these technologies to solve real-world problems and create engaging user experiences." 
