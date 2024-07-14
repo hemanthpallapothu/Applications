@@ -95,7 +95,6 @@
 
 .home-page-card-bg-2 {
     background-color: #EC9718;
-
     color: black;
     border-radius: 8px;
     padding: 5px;
@@ -136,7 +135,8 @@
 .Latest-Offerings-card {
     background-color: white;
     border-radius: 8px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
 }
 
 .Latest-Offerings-img {
